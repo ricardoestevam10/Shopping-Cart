@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculadora de Carrinho</string>
+
+    <string name="meu_carrinho">Meu Carrinho</string>
+    <string name="carrinho_vazio">Seu carrinho está vazio. Adicione produtos do catálogo abaixo.</string>
+    <string name="catalogo_titulo">Catálogo de produtos</string>
+    <string name="sem_descricao">Sem descrição</string>
+
+    <string name="preco_quantidade">%1$s  x%2$d</string>
+    <string name="desconto_etiqueta">%1$s%% OFF</string>
+    <string name="total_com_desconto">Com desconto: %1$s</string>
+
+    <string name="adicionar">Adicionar</string>
+    <string name="diminuir_quantidade">Diminuir quantidade</string>
+    <string name="aumentar_quantidade">Aumentar quantidade</string>
+    <string name="remover_item">Remover item</string>
+    <string name="icone_carrinho">Carrinho de compras</string>
+
+    <string name="resumo_subtotal">Subtotal</string>
+    <string name="resumo_descontos">Descontos</string>
+    <string name="resumo_total">TOTAL</string>
+</resources>
