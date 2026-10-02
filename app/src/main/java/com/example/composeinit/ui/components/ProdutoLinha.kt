@@ -130,7 +130,7 @@ fun ProdutoLinha(
     }
 }
 
-/** Descrição com no máximo 2 linhas e tratamento seguro de nulo / vazio. */
+
 @Composable
 fun TextoDescricao(descricao: String?, modifier: Modifier = Modifier) {
     val textoSeguro = descricao?.takeIf { it.isNotBlank() }
@@ -145,7 +145,7 @@ fun TextoDescricao(descricao: String?, modifier: Modifier = Modifier) {
     )
 }
 
-/** Etiqueta "5% OFF" exibida em produtos com desconto. */
+
 @Composable
 fun EtiquetaDesconto(descontoPercentual: Double, modifier: Modifier = Modifier) {
     Surface(
