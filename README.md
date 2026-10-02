@@ -7,8 +7,6 @@ aplica descontos, mostra o carrinho de forma parametrizada e gera um relatório 
 
 ## Capturas de tela
 
-| Emulador | Logcat |
-|---|---|
 ![Emulador](images/cap3.PNG)
 ![Logcat](images/1-logcat.PNG)
 ![Logcat](images/2-logcat.PNG)
