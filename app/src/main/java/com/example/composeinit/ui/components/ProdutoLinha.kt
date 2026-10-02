@@ -26,16 +26,7 @@ import com.example.composeinit.R
 import com.example.composeinit.util.formatarMoeda
 import com.example.composeinit.util.formatarPercentual
 
-/**
- * Linha reutilizável de um item do carrinho.
- *
- * Nenhum dado de produto está escrito aqui dentro: tudo chega por parâmetro.
- * Nome: no máximo 1 linha. Descrição: no máximo 2 linhas, ambos com reticências.
- * Descrição nula ou em branco mostra o texto padrão "Sem descrição" (sem usar `!!`).
- *
- * @param total total da linha: preço unitário × quantidade, sem desconto.
- * @param totalComDesconto total da linha com o desconto aplicado.
- */
+
 @Composable
 fun ProdutoLinha(
     nome: String,

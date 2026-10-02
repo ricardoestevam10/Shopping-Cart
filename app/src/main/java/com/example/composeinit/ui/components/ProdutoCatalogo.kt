@@ -18,7 +18,6 @@ import androidx.compose.ui.unit.dp
 import com.example.composeinit.R
 import com.example.composeinit.util.formatarMoeda
 
-/** Linha do catálogo com o botão que adiciona o produto ao carrinho. Tudo por parâmetro. */
 @Composable
 fun ProdutoCatalogo(
     nome: String,

@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.example.composeinit.R
 import com.example.composeinit.util.formatarMoeda
 
-/** Rodapé com Subtotal, Descontos e TOTAL, recebidos já calculados pelo domínio. */
+
 @Composable
 fun ResumoCarrinho(
     subtotal: Double,

@@ -2,17 +2,6 @@ package com.example.composeinit.data
 
 import com.example.composeinit.domain.model.Produto
 
-/**
- * Catálogo FIXO exigido pelo enunciado. É a única fonte de produtos do app;
- * o carrinho, as quantidades e todos os totais são gerados em tempo de execução
- * a partir das ações do usuário (nada do carrinho vem pré-preenchido).
- *
- * Cobre os requisitos:
- *  - mais de 6 produtos;
- *  - 3 produtos com desconto (Notebook, Monitor, Headset);
- *  - 2 produtos sem descrição (descricao = null);
- *  - 1 produto com nome longo (Monitor), para validar o truncamento do layout.
- */
 object CatalogoProdutos {
 
     val produtos: List<Produto> = listOf(

@@ -44,11 +44,9 @@ import com.example.composeinit.ui.components.ResumoCarrinho
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CarrinhoScreen(modifier: Modifier = Modifier) {
-    // Único estado da tela: o carrinho. Começa vazio e só muda por ações do usuário.
-    // Cada ação cria uma NOVA lista (funções puras do domínio) e atribui ao mutableState.
+
     var itens by remember { mutableStateOf(emptyList<ItemCarrinho>()) }
 
-    // Sempre que o carrinho muda, o relatório é reimpresso no Logcat (tag "RelatorioCarrinho").
     LaunchedEffect(itens) {
         RelatorioCarrinho.imprimirNoLogcat(itens)
     }
@@ -87,7 +85,7 @@ fun CarrinhoScreen(modifier: Modifier = Modifier) {
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // ---- Itens do carrinho (laço de repetição + componente reutilizável) ----
+
             if (itens.isEmpty()) {
                 Text(
                     text = stringResource(R.string.carrinho_vazio),
@@ -112,7 +110,7 @@ fun CarrinhoScreen(modifier: Modifier = Modifier) {
                 }
             }
 
-            // ---- Catálogo: o usuário escolhe o que entra no carrinho ----
+
             Text(
                 text = stringResource(R.string.catalogo_titulo),
                 style = MaterialTheme.typography.titleLarge,

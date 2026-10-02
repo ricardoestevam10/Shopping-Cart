@@ -2,10 +2,7 @@ package com.example.composeinit.domain.model
 
 import com.example.composeinit.domain.totalFinalItem
 
-/**
- * Relaciona um [Produto] a uma quantidade dentro do carrinho.
- * Como [Pagavel], o total é (preço × quantidade) já com o desconto aplicado.
- */
+
 data class ItemCarrinho(
     val produto: Produto,
     val quantidade: Int
