@@ -1,6 +1,6 @@
 # Calculadora de Carrinho de Compras
 
-**Aluno:** _[SEU NOME COMPLETO AQUI]_
+**Aluno:** Ricardo Estevam Silva Conceição
 
 Aplicativo Android (Kotlin + Jetpack Compose + Material 3) que carrega um catálogo fixo de produtos,
 aplica descontos, mostra o carrinho de forma parametrizada e gera um relatório no Logcat.
